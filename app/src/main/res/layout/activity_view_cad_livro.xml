@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.ViewCadLivro"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro de Livros"
+        android:textSize="30dp"
+        android:layout_marginHorizontal="65dp"
+        android:layout_marginTop="10dp"
+    />
+
+    <EditText
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titúlo"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/txtCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Categoria"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/txtPaginas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Páginas"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Spinner
+        android:id="@+id/SpinAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnSalvarLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>
